@@ -1,6 +1,8 @@
 <?php
 
+
 namespace Varandas\Crlib;
+
 
 class CrlibClient extends CrlibOperations
 {

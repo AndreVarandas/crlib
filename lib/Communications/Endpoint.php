@@ -3,6 +3,7 @@
 
 namespace Varandas\Crlib\Communications;
 
+
 class Endpoint
 {
     const CARDS = 'https://api.clashroyale.com/v1/cards';
