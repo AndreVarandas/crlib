@@ -52,7 +52,7 @@ class Http
             );
         }
 
-        return json_encode($body);
+        return json_decode($body);
     }
 
     /**
