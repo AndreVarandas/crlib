@@ -51,7 +51,8 @@ class Http
                 . $this->_response_code
             );
         }
-        return $body;
+
+        return json_encode($body);
     }
 
     /**
