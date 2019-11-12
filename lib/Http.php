@@ -15,7 +15,7 @@ class Http
         $this->authorization_token = $authorization_token;
     }
 
-    public function getResource($url, $fields = '')
+    public function getResource($url, $fields = [])
     {
         if (empty($this->ch) || !function_exists('curl_reset')) {
             $this->ch = curl_init();
